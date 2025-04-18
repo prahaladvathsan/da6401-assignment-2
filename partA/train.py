@@ -47,15 +47,11 @@ transform = transforms.Compose([
     # Add more transforms as needed (e.g., normalization)
 ])
 
-# Load the iNaturalist dataset (replace with your actual path)
-dataset = datasets.ImageFolder(root='data/inaturalist', transform=transform)
+# Load the training and validation datasets from the split directories
+train_dataset = datasets.ImageFolder(root='data/train_split', transform=transform)
+val_dataset = datasets.ImageFolder(root='data/val_split', transform=transform)
 
-# Split into training and validation sets
-train_size = int(0.8 * len(dataset))
-val_size = len(dataset) - train_size
-train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
-
-# Data loaders
+# Create data loaders for training and validation sets
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True, num_workers=4)
 val_loader = DataLoader(val_dataset, batch_size=32, num_workers=4)
 
