@@ -175,7 +175,7 @@ def train_model(
     data_augmentation=True,
     input_size=128,
     subset_fraction=1.0,
-    max_epochs=20,
+    max_epochs=10,
     batch_size=32
 ):
     """
@@ -321,7 +321,7 @@ def main():
             batch_norm=True,
             dropout_rate=0.3,
             subset_fraction=1,  # Use 30% of data
-            max_epochs=15
+            max_epochs=10
         )
 
 if __name__ == "__main__":
