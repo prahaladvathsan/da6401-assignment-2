@@ -1,0 +1,13 @@
+{"time":"2025-04-19T14:17:25.5586587+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\praha\\Documents\\IIT madras\\Acads\\sem 10\\introtoDL\\A02\\da6401-assignment-2\\wandb\\run-20250419_141725-ukp8negi\\logs\\debug-core.log"}
+{"time":"2025-04-19T14:17:25.6775129+05:30","level":"INFO","msg":"created new stream","id":"ukp8negi"}
+{"time":"2025-04-19T14:17:25.6776568+05:30","level":"INFO","msg":"stream: started","id":"ukp8negi"}
+{"time":"2025-04-19T14:17:25.6778188+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ukp8negi"}
+{"time":"2025-04-19T14:17:25.6778188+05:30","level":"INFO","msg":"handler: started","stream_id":"ukp8negi"}
+{"time":"2025-04-19T14:17:25.6781224+05:30","level":"INFO","msg":"sender: started","stream_id":"ukp8negi"}
+{"time":"2025-04-19T14:17:26.0558609+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T14:17:41.0715087+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-19T14:17:56.0717963+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-19T14:18:11.0712958+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-19T14:18:26.0727872+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-19T14:18:41.0702623+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-19T14:18:56.0911073+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 2828\nIncorrect function."}

@@ -1,0 +1,24 @@
+2025-04-19 14:16:12,319 INFO    MainThread:36340 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-04-19 14:16:12,319 INFO    MainThread:36340 [wandb_setup.py:_flush():67] Configure stats pid to 36340
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_setup.py:_flush():67] Loading settings from C:\Users\praha\.config\wandb\settings
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_setup.py:_flush():67] Loading settings from C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\wandb\settings
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\wandb\run-20250419_141612-smcqzv56\logs\debug.log
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\wandb\run-20250419_141612-smcqzv56\logs\debug-internal.log
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_init.py:init():761] calling init triggers
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_init.py:init():784] starting backend
+2025-04-19 14:16:12,320 INFO    MainThread:36340 [wandb_init.py:init():788] sending inform_init request
+2025-04-19 14:16:12,341 INFO    MainThread:36340 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-19 14:16:12,341 INFO    MainThread:36340 [wandb_init.py:init():798] backend started and connected
+2025-04-19 14:16:12,343 INFO    MainThread:36340 [wandb_init.py:init():891] updated telemetry
+2025-04-19 14:16:12,406 INFO    MainThread:36340 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-04-19 14:16:12,854 INFO    MainThread:36340 [wandb_init.py:init():990] starting run threads in backend
+2025-04-19 14:16:13,490 INFO    MainThread:36340 [wandb_run.py:_console_start():2375] atexit reg
+2025-04-19 14:16:13,490 INFO    MainThread:36340 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-04-19 14:16:13,490 INFO    MainThread:36340 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-04-19 14:16:13,491 INFO    MainThread:36340 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-04-19 14:16:13,497 INFO    MainThread:36340 [wandb_init.py:init():1032] run started, returning control to user process
+2025-04-19 14:16:13,498 INFO    MainThread:36340 [wandb_run.py:_config_callback():1261] config_cb None None {'num_conv_layers': 5, 'num_filters': 32, 'filter_size': 3, 'activation': 'ReLU', 'dense_layer_neurons': 64, 'learning_rate': 0.001, 'batch_norm': True, 'dropout_rate': 0.3, 'data_augmentation': True, 'input_size': 128, 'subset_fraction': 1, 'max_epochs': 10, 'batch_size': 32}
+2025-04-19 14:16:13,766 INFO    MainThread:36340 [wandb_run.py:_config_callback():1261] config_cb None None {'num_conv_layers': 5, 'num_filters': 32, 'filter_size': 3, 'activation': 'ReLU', 'dense_layer_neurons': 64, 'learning_rate': 0.001, 'batch_norm': True, 'dropout_rate': 0.3, 'data_augmentation': True, 'input_size': 128}

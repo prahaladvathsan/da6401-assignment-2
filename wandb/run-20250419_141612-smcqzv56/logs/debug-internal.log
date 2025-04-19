@@ -1,0 +1,18 @@
+{"time":"2025-04-19T14:16:12.346446+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\praha\\Documents\\IIT madras\\Acads\\sem 10\\introtoDL\\A02\\da6401-assignment-2\\wandb\\run-20250419_141612-smcqzv56\\logs\\debug-core.log"}
+{"time":"2025-04-19T14:16:12.4633204+05:30","level":"INFO","msg":"created new stream","id":"smcqzv56"}
+{"time":"2025-04-19T14:16:12.4633204+05:30","level":"INFO","msg":"stream: started","id":"smcqzv56"}
+{"time":"2025-04-19T14:16:12.4633204+05:30","level":"INFO","msg":"handler: started","stream_id":"smcqzv56"}
+{"time":"2025-04-19T14:16:12.4633204+05:30","level":"INFO","msg":"sender: started","stream_id":"smcqzv56"}
+{"time":"2025-04-19T14:16:12.4633204+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"smcqzv56"}
+{"time":"2025-04-19T14:16:12.8626737+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T14:16:27.8824042+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:16:42.8779047+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:16:57.8791633+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:17:12.8834854+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:17:27.8797087+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:17:42.877383+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:17:57.8825826+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:18:12.8788683+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:18:27.8773155+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:18:42.8780676+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
+{"time":"2025-04-19T14:18:57.8792543+05:30","level":"ERROR","msg":"monitor: error sampling metrics: The parameter is incorrect.\ncould not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 36340\nIncorrect function."}
