@@ -1,0 +1,8 @@
+2025-04-19 11:16:35,811 INFO    MainThread:39264 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\wandb\run-20250419_111635-vzwce33s\logs\debug.log
+2025-04-19 11:16:35,812 INFO    MainThread:39264 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\wandb\run-20250419_111635-vzwce33s\logs\debug-internal.log
+2025-04-19 11:16:35,812 INFO    MainThread:39264 [wandb_init.py:init():761] calling init triggers
+2025-04-19 11:16:35,812 INFO    MainThread:39264 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-19 11:16:35,812 INFO    MainThread:39264 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-04-19 11:16:36,008 INFO    MainThread:39264 [wandb_run.py:_config_callback():1261] config_cb None None {'num_conv_layers': 3, 'num_filters': 32, 'filter_size': 3, 'activation': 'ReLU', 'dense_layer_neurons': 64, 'learning_rate': 0.001, 'batch_norm': True, 'dropout_rate': 0.3, 'data_augmentation': True}
+2025-04-19 11:17:03,796 INFO    MsgRouterThr:39264 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.

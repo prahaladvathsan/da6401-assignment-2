@@ -1,0 +1,21 @@
+Loaded 7999 training images and 2000 validation images
+Model has 8,409,034 parameters
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Starting training...
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loggers\wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+
+  | Name      | Type             | Params | Mode
+-------------------------------------------------------
+0 | model     | CNN              | 8.4 M  | train
+1 | criterion | CrossEntropyLoss | 0      | train
+-------------------------------------------------------
+8.4 M     Trainable params
+0         Non-trainable params
+8.4 M     Total params
+33.636    Total estimated model params size (MB)
+19        Modules in train mode
+0         Modules in eval mode
+Epoch 6:   7%| | 18/250 [00:18<03:59,  0.97it/s, v_num=tqxw, train_loss=2.120, train_acc=0.250, val_loss=1.
+                                                                                                           

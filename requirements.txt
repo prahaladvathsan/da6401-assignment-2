@@ -1,4 +1,4 @@
 torch
 torchvision
-torch-lightning
+pytorch-lightning
 wandb

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 249, in <module>
+    main()
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 245, in main
+    train_model_with_config()
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 192, in train_model_with_config
+    model = LitCNN(
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 79, in __init__
+    self.model = CNN(
+TypeError: CNN.__init__() got an unexpected keyword argument 'batch_norm'

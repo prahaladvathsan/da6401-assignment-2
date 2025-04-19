@@ -1,0 +1,15 @@
+{"time":"2025-04-19T10:59:17.6218591+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\praha\\Documents\\IIT madras\\Acads\\sem 10\\introtoDL\\A02\\da6401-assignment-2\\wandb\\run-20250419_105917-nja6npab\\logs\\debug-core.log"}
+{"time":"2025-04-19T10:59:18.2657812+05:30","level":"INFO","msg":"created new stream","id":"nja6npab"}
+{"time":"2025-04-19T10:59:18.2657812+05:30","level":"INFO","msg":"stream: started","id":"nja6npab"}
+{"time":"2025-04-19T10:59:18.2663801+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nja6npab"}
+{"time":"2025-04-19T10:59:18.2663801+05:30","level":"INFO","msg":"sender: started","stream_id":"nja6npab"}
+{"time":"2025-04-19T10:59:18.2657812+05:30","level":"INFO","msg":"handler: started","stream_id":"nja6npab"}
+{"time":"2025-04-19T10:59:18.6909116+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T10:59:20.5141688+05:30","level":"INFO","msg":"stream: closing","id":"nja6npab"}
+{"time":"2025-04-19T10:59:20.5141688+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T10:59:20.5152311+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T10:59:21.8363171+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T10:59:22.2064424+05:30","level":"INFO","msg":"handler: closed","stream_id":"nja6npab"}
+{"time":"2025-04-19T10:59:22.2064424+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nja6npab"}
+{"time":"2025-04-19T10:59:22.2064424+05:30","level":"INFO","msg":"sender: closed","stream_id":"nja6npab"}
+{"time":"2025-04-19T10:59:22.2070462+05:30","level":"INFO","msg":"stream: closed","id":"nja6npab"}

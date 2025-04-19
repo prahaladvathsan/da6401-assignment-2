@@ -1,0 +1,26 @@
+Using 2399 images for training (subset of full dataset)
+Loaded 2399 training images and 2000 validation images
+Model has 544,586 parameters
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Starting training...
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loggers\wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+
+  | Name      | Type             | Params | Mode
+-------------------------------------------------------
+0 | model     | CNN              | 544 K  | train
+1 | criterion | CrossEntropyLoss | 0      | train
+-------------------------------------------------------
+544 K     Trainable params
+0         Non-trainable params
+544 K     Total params
+2.178     Total estimated model params size (MB)
+20        Modules in train mode
+0         Modules in eval mode
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:420: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:420: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+Epoch 8: 100%|█| 75/75 [02:23<00:00,  0.52it/s, v_num=ifdd, train_loss=2.250, train_acc=0.194, val_loss=2.190, val_acc=0.17
+Training complete!                                                                                                         
+Model computations: 62,554,752
+Model parameters: 544,586

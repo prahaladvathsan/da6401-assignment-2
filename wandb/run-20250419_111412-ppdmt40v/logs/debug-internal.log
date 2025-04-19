@@ -1,0 +1,15 @@
+{"time":"2025-04-19T11:14:12.3609644+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\praha\\Documents\\IIT madras\\Acads\\sem 10\\introtoDL\\A02\\da6401-assignment-2\\wandb\\run-20250419_111412-ppdmt40v\\logs\\debug-core.log"}
+{"time":"2025-04-19T11:14:12.4866631+05:30","level":"INFO","msg":"created new stream","id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:12.487192+05:30","level":"INFO","msg":"stream: started","id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:12.487192+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:12.487192+05:30","level":"INFO","msg":"handler: started","stream_id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:12.487192+05:30","level":"INFO","msg":"sender: started","stream_id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:12.9014949+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T11:14:27.6733495+05:30","level":"INFO","msg":"stream: closing","id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:27.6733495+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T11:14:27.6746986+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T11:14:28.8171936+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T11:14:29.2784018+05:30","level":"INFO","msg":"handler: closed","stream_id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:29.2784018+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:29.2784018+05:30","level":"INFO","msg":"sender: closed","stream_id":"ppdmt40v"}
+{"time":"2025-04-19T11:14:29.2789129+05:30","level":"INFO","msg":"stream: closed","id":"ppdmt40v"}

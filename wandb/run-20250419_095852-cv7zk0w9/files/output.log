@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 133, in <module>
+    main()
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 118, in main
+    trainer = pl.Trainer(
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\utilities\argparse.py", line 70, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 404, in __init__
+    self._accelerator_connector = _AcceleratorConnector(
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\connectors\accelerator_connector.py", line 131, in __init__
+    self._check_config_and_set_final_flags(
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\connectors\accelerator_connector.py", line 194, in _check_config_and_set_final_flags
+    raise ValueError(
+ValueError: You selected an invalid strategy name: `strategy=None`. It must be either a string or an instance of `pytorch_lightning.strategies.Strategy`. Example choices: auto, ddp, ddp_spawn, deepspeed, ... Find a complete list of options in our documentation at https://lightning.ai

@@ -1,0 +1,20 @@
+You are using the plain ModelCheckpoint callback. Consider using LitModelCheckpoint which with seamless uploading to Model registry.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loggers\wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+
+  | Name      | Type             | Params | Mode
+-------------------------------------------------------
+0 | model     | CNN              | 3.2 M  | train
+1 | criterion | CrossEntropyLoss | 0      | train
+-------------------------------------------------------
+3.2 M     Trainable params
+0         Non-trainable params
+3.2 M     Total params
+12.928    Total estimated model params size (MB)
+14        Modules in train mode
+0         Modules in eval mode
+Epoch 9: 100%|████████████████████████████████| 125/125 [04:25<00:00,  0.47it/s, v_num=c509, val_loss=1.970, val_acc=0.308]
+                                                                                                                           
+`Trainer.fit` stopped: `max_epochs=10` reached.

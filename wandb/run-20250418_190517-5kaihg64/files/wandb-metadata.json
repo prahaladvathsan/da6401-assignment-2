@@ -1,0 +1,42 @@
+{
+  "os":  "Windows-10-10.0.22631-SP0",
+  "python":  "CPython 3.10.14",
+  "startedAt":  "2025-04-18T13:35:17.709598Z",
+  "program":  "C:\\Users\\praha\\Documents\\IIT madras\\Acads\\sem 10\\introtoDL\\A02\\da6401-assignment-2\\partA\\train.py",
+  "codePath":  "partA\\train.py",
+  "git":  {
+    "remote":  "https://github.com/prahaladvathsan/da6401-assignment-2.git",
+    "commit":  "b1235c728672bd9d7ca5a586f88e496254c740ca"
+  },
+  "email":  "ch20b081@smail.iitm.ac.in",
+  "root":  "C:\\Users\\praha\\Documents\\IIT madras\\Acads\\sem 10\\introtoDL\\A02\\da6401-assignment-2",
+  "host":  "DESKTOP-L0BPKG2",
+  "executable":  "C:\\Users\\praha\\miniconda3\\envs\\DS\\python.exe",
+  "codePathLocal":  "partA\\train.py",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce GTX 1650 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1004153073664",
+      "used":  "882747584512"
+    }
+  },
+  "memory":  {
+    "total":  "16929984512"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650 Ti",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  1024,
+      "architecture":  "Turing"
+    }
+  ],
+  "cudaVersion":  "12.7"
+}

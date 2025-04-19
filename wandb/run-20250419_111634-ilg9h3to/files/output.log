@@ -1,0 +1,85 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loggers\wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+
+  | Name      | Type             | Params | Mode
+-------------------------------------------------------
+0 | model     | CNN              | 544 K  | train
+1 | criterion | CrossEntropyLoss | 0      | train
+-------------------------------------------------------
+544 K     Trainable params
+0         Non-trainable params
+544 K     Total params
+2.178     Total estimated model params size (MB)
+20        Modules in train mode
+0         Modules in eval mode
+Epoch 0:   0%|                                                                                     | 0/500 [00:00<?, ?it/s]
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:420: Consider setting `persistent_workers=True` in 'val_dataloader' to speed up the dataloader worker initialization.
+C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\connectors\data_connector.py:420: Consider setting `persistent_workers=True` in 'train_dataloader' to speed up the dataloader worker initialization.
+Traceback (most recent call last):
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 247, in <module>
+    main()
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 243, in main
+    train_model_with_config()
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 215, in train_model_with_config
+    trainer.fit(model, train_loader, val_loader)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 561, in fit
+    call._call_and_handle_interrupt(
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\call.py", line 48, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 599, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1012, in _run
+    results = self._run_stage()
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\trainer.py", line 1056, in _run_stage
+    self.fit_loop.run()
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\fit_loop.py", line 216, in run
+    self.advance()
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\fit_loop.py", line 455, in advance
+    self.epoch_loop.run(self._data_fetcher)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\training_epoch_loop.py", line 150, in run
+    self.advance(data_fetcher)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\training_epoch_loop.py", line 320, in advance
+    batch_output = self.automatic_optimization.run(trainer.optimizers[0], batch_idx, kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\optimization\automatic.py", line 185, in run
+    closure()
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\optimization\automatic.py", line 146, in __call__
+    self._result = self.closure(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\optimization\automatic.py", line 131, in closure
+    step_output = self._step_fn()
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\loops\optimization\automatic.py", line 319, in _training_step
+    training_step_output = call._call_strategy_hook(trainer, "training_step", *kwargs.values())
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\trainer\call.py", line 328, in _call_strategy_hook
+    output = fn(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\pytorch_lightning\strategies\strategy.py", line 391, in training_step
+    return self.lightning_module.training_step(*args, **kwargs)
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 98, in training_step
+    logits = self(x)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\train.py", line 94, in forward
+    return self.model(x)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\praha\Documents\IIT madras\Acads\sem 10\introtoDL\A02\da6401-assignment-2\partA\model.py", line 69, in forward
+    x = self.classifier(x)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\praha\miniconda3\envs\DS\lib\site-packages\torch\nn\modules\linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (16x25088 and 8192x64)

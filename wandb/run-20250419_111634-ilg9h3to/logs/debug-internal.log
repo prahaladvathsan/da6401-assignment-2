@@ -1,0 +1,16 @@
+{"time":"2025-04-19T11:16:34.2943978+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\praha\\Documents\\IIT madras\\Acads\\sem 10\\introtoDL\\A02\\da6401-assignment-2\\wandb\\run-20250419_111634-ilg9h3to\\logs\\debug-core.log"}
+{"time":"2025-04-19T11:16:34.4199804+05:30","level":"INFO","msg":"created new stream","id":"ilg9h3to"}
+{"time":"2025-04-19T11:16:34.4205038+05:30","level":"INFO","msg":"stream: started","id":"ilg9h3to"}
+{"time":"2025-04-19T11:16:34.4205038+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ilg9h3to"}
+{"time":"2025-04-19T11:16:34.4205038+05:30","level":"INFO","msg":"sender: started","stream_id":"ilg9h3to"}
+{"time":"2025-04-19T11:16:34.4205038+05:30","level":"INFO","msg":"handler: started","stream_id":"ilg9h3to"}
+{"time":"2025-04-19T11:16:34.8500259+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T11:16:49.8699307+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-19T11:17:03.7977917+05:30","level":"INFO","msg":"stream: closing","id":"ilg9h3to"}
+{"time":"2025-04-19T11:17:03.7989669+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T11:17:03.800855+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T11:17:05.428668+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T11:17:06.0638078+05:30","level":"INFO","msg":"sender: closed","stream_id":"ilg9h3to"}
+{"time":"2025-04-19T11:17:06.0638743+05:30","level":"INFO","msg":"handler: closed","stream_id":"ilg9h3to"}
+{"time":"2025-04-19T11:17:06.0638743+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ilg9h3to"}
+{"time":"2025-04-19T11:17:06.0642264+05:30","level":"INFO","msg":"stream: closed","id":"ilg9h3to"}
